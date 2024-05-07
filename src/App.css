@@ -1,0 +1,174 @@
+.nvbr{
+  background: none;
+}
+.logo{
+  color: #8ab9df;
+}
+.lics  li{
+  list-style: none;
+}
+.lics li:hover a{
+  color: #0e75ca;
+}
+.lics  a{
+  text-decoration: none;
+  color: white;
+}
+.login button{
+  background-color:#8ab9df;
+}
+.login a{
+  text-decoration: none;
+  color: black;
+}
+.login button:hover{
+  background-color: #244560;
+}
+.login button:hover a{
+  color: white;
+}
+.menu ul{
+  background-color: #0f2231;
+  z-index: 100;
+}
+.menu li{
+list-style: none;
+margin-top: 3px;
+}
+.menu a{
+  text-decoration: none;
+  color:white;
+ 
+}
+.menu ul{
+  transform: scaleY(0);
+  transform-origin:top;
+  transition: 1s;
+}
+.menu:hover ul{
+transform: scaleY(1);
+}
+
+.hom-bg{
+ background:rgba(0,0,0,0) url('./assignment pic/bluebg.avif');
+ background-position: center;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+background-size: cover;
+height: 560px;
+background-blend-mode: darken;
+}
+.smbtn{
+  position:absolute;
+  bottom: 20px;
+  left: 230px;
+}
+.menu{
+  text-align: center;
+}
+.shopbtn{
+  background-color: #1b3041;
+  color: whitesmoke;
+  
+}
+.shopbtn:hover{
+  color: #244560;
+  background-color: white;
+}
+.minibtn a{
+text-decoration: none;
+background-color: white;
+color: black;
+}
+.minibtn a:hover {
+  background-color: #244560;
+  color: white;
+}
+.imgdiv img{
+  width: 100%;
+  height: 200px;
+}
+.slider-bg{
+   background: #1f3a4d;
+  height: 510px;
+}
+
+.crd:hover{
+  color:#156bb1;
+}
+.crd{
+  overflow: hidden;
+}
+.crd img{
+  transition: transform 1.5s ease;
+  overflow: hidden;
+}
+.crd:hover img{
+  transform: scale(1.1);
+}
+
+.bgimg2{
+  background: url('./assignment pic/interior-design-living-room-with-armchair-empty-dark-blue-wall-background3d-rendering_41470-4590.avif'
+  );
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog-txt{
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  background:rgba(214, 230, 236, 0.5) ;
+  color:#1b3041;
+  bottom: 0px;
+  right: 12px;
+}
+.blog-txt a{
+  text-decoration: none;
+}
+.blog-txt {
+  overflow: hidden;
+  transform-origin: 300px 200px; 
+  transition: transform 1.5s ease; 
+}
+
+.blogmndiv:hover .blog-txt {
+  transform: scale(1.1);
+}
+
+.blogmndiv:not(:hover) .blog-txt {
+  transform: scale(1); 
+}
+
+.bgdiv{
+  background-color:#1f3a4d;
+  /* height: 350px; */
+}
+.arow{
+  rotate: 45deg;
+}
+.arrow{
+  margin-top: 8px;
+}
+.arrow a{
+  text-decoration: none;
+  color: white;
+}
+.arrow a:hover{
+  color: #0e75ca;
+}
+.subinpt input{
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+.subinpt button{
+  outline: none;
+}
+.fotdiv:hover{
+  color: #156bb1;
+}
