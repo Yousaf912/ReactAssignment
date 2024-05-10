@@ -7,7 +7,7 @@ import bedimg from './assignment pic/images__3_-removebg-preview.png';
 import secimg from './assignment pic/71jA21x+maL._AC_UF1000_1000_QL80_-removebg-preview.png'
 import thimg from './assignment pic/51PwEAgUpZL._AC_-removebg-preview.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faArrowRight, faCartShopping, faStar,  faPhone, faLocationDot, faEnvelope, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faArrowRight, faCartShopping, faStar, faPhone, faLocationDot, faEnvelope, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 
 function App() {
@@ -16,13 +16,13 @@ function App() {
       link: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2DJ9HDdq3WZfJQRGt7urgVbwbeOmZdQmM7wStLjIgHXDf7szv",
       dis: "Plant Shelf",
       price: "$87",
-      id:"Shelf"
+      id: "Shelf"
     },
     {
       link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2tSumibzGhuPQ8rokZQJmRLFJNQqowVPIIIpiSYcsiNypqbu",
       dis: "Sofa",
       price: "$98",
-      id:"Sofa"
+      id: "Sofa"
     },
     {
       link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8IUPLbp8i9AikI0FTHxoOQlrxjRwXUfwju74PEzUGp4V5isG3",
@@ -33,13 +33,13 @@ function App() {
       link: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0X3xq0SrIo_VHVe9dx02Z2vEGz4xjk8tOqG4CFDnj07rPpwhl",
       dis: "Wodden Bed ",
       price: "$987",
-      id:'Bed'
+      id: 'Bed'
     },
     {
       link: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRogaj7hWROXl5auRdg9Lpj4B4RmGy_TupYYG80srirxjRJNlUQ",
       dis: "Light Lamp",
       price: "$76",
-      id:"Lamp"
+      id: "Lamp"
     },
     {
       link: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSr2vHAlrnJc6RhhiiHA4mZOv-96lze684LBRTYFDbfz6QOa1EO",
@@ -55,7 +55,7 @@ function App() {
       link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Slg20st_yZW3QjWUXZGCgZCDFh34WP6XqSVEWdUHzvmu1jKC",
       dis: "Comfertable Sofa",
       price: "$54",
-      id:"Decor"
+      id: "Decor"
     },
     {
       link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_aeJ97nN94iFFIRxIerI7i49WbM1P-gNE8P2E4_TWGSfG_a9t",
@@ -307,8 +307,14 @@ function App() {
 
               <div className="col-lg-3 col-md-5 ms-lg-1 border p-2 border-3 rounded-3 mb-5 shadow" id={g.id}>
                 <div className='crd'>
-                  <img src={g.link} alt="" className='' width={'100%'} height={350} />
-                  <div className='d-flex justify-content-between mt-2 pt-3'>
+                  <img src={g.link} alt="" className='' width={'100%'} height={290} />
+                    <div className='d-flex mt-3'>
+                      <div className='dot bg-info'></div>
+                      <div className='dot bg-success'></div>
+                      <div className='dot bg-dark'></div>
+                      <div className='dot bg-warning'></div>
+                    </div>
+                  <div className='d-flex justify-content-between  pt-3'>
                     <h6>{g.dis}</h6>
                     <a href="">
                       <FontAwesomeIcon icon={faCartShopping} className='fs-4 mt-2' /></a>
@@ -563,7 +569,7 @@ function App() {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
       {/* ---------------------------------------Footer End ----------------------------- */}

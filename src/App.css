@@ -1,6 +1,12 @@
 .nvbr{
   background: none;
 }
+.dot{
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+}
 .logo{
   color: #8ab9df;
 }
@@ -130,7 +136,7 @@ color: black;
   text-decoration: none;
 }
 .blog-txt {
-  overflow: hidden;
+  /* overflow: hidden; */
   transform-origin: 300px 200px; 
   transition: transform 1.5s ease; 
 }
